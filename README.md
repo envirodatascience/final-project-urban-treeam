@@ -59,9 +59,11 @@ The biodiversity component of our project aims to understand the current levels 
     ### Valuation_Total: An estimate of the value of the tree (in USD). Calculated using the I-tree eco tool which is intregated into the treekeeper           software. (information about I-tree eco: https://www.itreetools.org/tools/i-tree-eco)
    
 3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
+   
+4. Topher, however you'd like to describe your data here
 
 ## Notebooks 
-The project is organized in three notebooks:
+The project analysis is organized in three notebooks:
 1. Wire Component: Les_UtilityLines.ipynb
 2. Biodiversity Component: Final_Project_URI_trees
 3. Canopy Component: 
