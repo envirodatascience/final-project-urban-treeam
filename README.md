@@ -1,15 +1,15 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/g_e38bz1)
 # Final Project for ENV 617 2024
 
-## Importance of the project 
+# Importance of the project 
 Urban tree cover is important for many reasons, ranging from public health to climate adaptation and mitigation. In New Haven, CT, one of the major agents in urban greening and tree planting is the Urban Resources Initiative (URI), a university-non profit partnership with Yale University. URI has been planting trees along streets and in parks across New Haven for almost 20 years, while also producing research focused on the practice of urban forestry. Recently, URI received a large ($2.6 million) grant from the United States Department of Agriculture’s Urban and Community Forestry Grant Program to plant more trees, specifically focusing on historically underserved, low-canopy neighborhoods. This essentially doubles the tree-planting goals that URI has, in terms of the number of trees planted, over the next five years. With this context, our aims in this project are understand how street trees vary across New Haven, particularly as a result of specific management and planting choices, to both understand the impact of URI's work, and to provide insights that might guide planting decisions in the future.
 
 We do this through three seperate analyses. 
 
-### Wire component 
+## Wire component 
 URI only plants shade trees (trees which will grow very tall) in sites that do not have powerlines overhead, because conflict with powerlines are thought to lead to lower tree health due to heavy pruning. This analysis explores the impact of powerlines on tree health, as well as the implications of URI's decision to not plant tall trees under powerlines. A more detailed narrative can be read within the notebook.
 
-### Biodiversity component 
+## Biodiversity component 
 URI prioritizes the diversity of tree species, avoiding planting too many individual trees of a single species or even a single genus in a small, localized area. The impact of emerald ash borer on white ash can exemplify the reason for this strategic approach. The outbreak of a pest or disease can cause detrimental effects on tree canopies when too many individuals are susceptible to that pest or disease and are planted in one location. 
 
 Throughout the years, New Haven has experienced almost total canopy loss of affected species from different pests and diseases such as emerald ash borer, chestnut blight, and Dutch elm disease. 
@@ -24,11 +24,11 @@ The biodiversity component of our project aims to understand the current levels 
 
 •	What is the condition of street trees in New Haven?
 
-### Canopy component
+## Canopy component
 (Topher's part)
 
-## Data Sources 
-#in the repository
+# Data Sources 
+## in the repository
 1. all_trees_58_1712257580.csv: This is a csv containing all the tree datapoints from New Haven's online tree inventory (https://newhavenct.treekeepersoftware.com). It contains the following information:
     ### Site_ID: A unique identification number for each individual tree point
     ### Latitude: Latitude of the tree point
@@ -55,11 +55,11 @@ The biodiversity component of our project aims to understand the current levels 
    
 3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
 
-#pulled from online:
+## pulled from online:
    
 4. Topher, however you'd like to describe your data here
 
-## Notebooks 
+# Notebooks 
 The project analysis is organized in three notebooks:
 1. Wire Component: Les_UtilityLines.ipynb
 2. Biodiversity Component: Final_Project_URI_trees
