@@ -6,12 +6,6 @@ Urban tree cover is important for many reasons, ranging from public health to cl
 
 We do this through three seperate analyses. 
 
-
-
-   
-
-
-
 ### Wire component 
 URI only plants shade trees (trees which will grow very tall) in sites that do not have powerlines overhead, because conflict with powerlines are thought to lead to lower tree health due to heavy pruning. This analysis explores the impact of powerlines on tree health, as well as the implications of URI's decision to not plant tall trees under powerlines. A more detailed narrative can be read within the notebook.
 
@@ -31,9 +25,10 @@ The biodiversity component of our project aims to understand the current levels 
 •	What is the condition of street trees in New Haven?
 
 ### Canopy component
-(Allen's part)
+(Topher's part)
 
 ## Data Sources 
+#in the repository
 1. all_trees_58_1712257580.csv: This is a csv containing all the tree datapoints from New Haven's online tree inventory (https://newhavenct.treekeepersoftware.com). It contains the following information:
     ### Site_ID: A unique identification number for each individual tree point
     ### Latitude: Latitude of the tree point
@@ -59,6 +54,8 @@ The biodiversity component of our project aims to understand the current levels 
     ### Valuation_Total: An estimate of the value of the tree (in USD). Calculated using the I-tree eco tool which is intregated into the treekeeper           software. (information about I-tree eco: https://www.itreetools.org/tools/i-tree-eco)
    
 3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
+
+#pulled from online:
    
 4. Topher, however you'd like to describe your data here
 
