@@ -33,7 +33,7 @@ We do this through three seperate analyses.
    
 3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
    
-![image](https://github.com/envirodatascience/final-project-urban-treeam/assets/157647129/f9cfdfa8-f5a2-41a0-b7f9-085c618d1043)
+
 
 
 ### Wire component 
