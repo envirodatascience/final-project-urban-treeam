@@ -35,7 +35,7 @@ The biodiversity component of our project aims to understand the current levels 
 
 ## Data Sources 
 1. all_trees_58_1712257580.csv: This is a csv containing all the tree datapoints from New Haven's online tree inventory (https://newhavenct.treekeepersoftware.com). It contains the following information:
-    # Site_ID: A unique identification number for each individual tree point
+    ### Site_ID: A unique identification number for each individual tree point
     ### Latitude: Latitude of the tree point
     ### Longitude: Longitude of the tree point
     ### Latin_Name: Latin (scientific) name of the tree at the point
