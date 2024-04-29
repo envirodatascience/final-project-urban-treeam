@@ -6,32 +6,8 @@ Urban tree cover is important for many reasons, ranging from public health to cl
 
 We do this through three seperate analyses. 
 
-##### Files in the repository
-1. all_trees_58_1712257580.csv: This is a csv containing all the tree datapoints from New Haven's online tree inventory (https://newhavenct.treekeepersoftware.com). It contains the following information:
-    ### Site_ID: A unique identification number for each individual tree point
-    ### Latitude: Latitude of the tree point
-    ### Longitude: Longitude of the tree point
-    ### Latin_Name: Latin (scientific) name of the tree at the point
-    ### Common_Name: Common name of the tree at the point.
-    ### Condition: A semi-qualitative assessment of the tree.
-     Values are Stump, Standing Dead (a dead or nearly dead tree <10% of canopy remaining), Very poor (a badly declining tree, <50% of canopy remaining,       likely hazardous), Poor (a declining tree, <60% of canopy remaining, possibly hazardous), Fair (A stable tree, <75% canopy remaining), Good (A            healthy tree, at least 90% of canopy remaining), and Excellent (An exceptional tree, full or nearly full canopy).
-     NOTE: Canopy percentages are guidelines and not hard rules, especially since assessments are estimates by trained students and not formal                 measurements. Other criteria can be incorportated, such as the presence and load of pests or pathogens, structural injury, and misshappenness
-    ### DBH: Diameter (in inches) at Breast Height (1.3m above the ground)
-    ### Wire: yes= utility wires above the tree, no= no utility wires above the tree
-    ### Grow_Space: The type of space (e.g., tree pit, yard) the tree is in.
-    ### Organization: The organization which planted the tree
-    ### Neighborhood: The neighborhood the tree is planted in
-    ### Planted_Date: The date, if known, of planting
-    ### Department: The juristriction overseeing a tree (e.g. Yale Facilities, Parks Dept.)
-    ### Latin_Genus: Genus of tree
-    ### Common_Genus: Common name genus of tree
-    ### Last_Editor: Editor who last made changes to the point in the treekeeper software
-    ### Sites: Duplicate variable of Site_ID
 
-2. all_trees_58_1713995132.csv: This CSV is a duplicate of all_trees_58_1712257580.csv, but with the additional field:
-    ### Valuation_Total: An estimate of the value of the tree (in USD). Calculated using the I-tree eco tool which is intregated into the treekeeper           software. (information about I-tree eco: https://www.itreetools.org/tools/i-tree-eco)
-   
-3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
+
    
 
 
@@ -57,8 +33,32 @@ The biodiversity component of our project aims to understand the current levels 
 ### Canopy component
 (Allen's part)
 
-## Data Source 
-(Data Source link)
+## Data Sources 
+1. all_trees_58_1712257580.csv: This is a csv containing all the tree datapoints from New Haven's online tree inventory (https://newhavenct.treekeepersoftware.com). It contains the following information:
+    # Site_ID: A unique identification number for each individual tree point
+    ### Latitude: Latitude of the tree point
+    ### Longitude: Longitude of the tree point
+    ### Latin_Name: Latin (scientific) name of the tree at the point
+    ### Common_Name: Common name of the tree at the point.
+    ### Condition: A semi-qualitative assessment of the tree.
+     Values are Stump, Standing Dead (a dead or nearly dead tree <10% of canopy remaining), Very poor (a badly declining tree, <50% of canopy remaining,       likely hazardous), Poor (a declining tree, <60% of canopy remaining, possibly hazardous), Fair (A stable tree, <75% canopy remaining), Good (A            healthy tree, at least 90% of canopy remaining), and Excellent (An exceptional tree, full or nearly full canopy).
+     NOTE: Canopy percentages are guidelines and not hard rules, especially since assessments are estimates by trained students and not formal                 measurements. Other criteria can be incorportated, such as the presence and load of pests or pathogens, structural injury, and misshappenness
+    ### DBH: Diameter (in inches) at Breast Height (1.3m above the ground)
+    ### Wire: yes= utility wires above the tree, no= no utility wires above the tree
+    ### Grow_Space: The type of space (e.g., tree pit, yard) the tree is in.
+    ### Organization: The organization which planted the tree
+    ### Neighborhood: The neighborhood the tree is planted in
+    ### Planted_Date: The date, if known, of planting
+    ### Department: The juristriction overseeing a tree (e.g. Yale Facilities, Parks Dept.)
+    ### Latin_Genus: Genus of tree
+    ### Common_Genus: Common name genus of tree
+    ### Last_Editor: Editor who last made changes to the point in the treekeeper software
+    ### Sites: Duplicate variable of Site_ID
+
+2. all_trees_58_1713995132.csv: This CSV is a duplicate of all_trees_58_1712257580.csv, but with the additional field:
+    ### Valuation_Total: An estimate of the value of the tree (in USD). Calculated using the I-tree eco tool which is intregated into the treekeeper           software. (information about I-tree eco: https://www.itreetools.org/tools/i-tree-eco)
+   
+3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
 
 ## Notebooks 
 The project is organized in three notebooks:
