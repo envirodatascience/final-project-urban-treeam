@@ -6,7 +6,7 @@ Urban tree cover is important for many reasons, ranging from public health to cl
 
 We do this through three seperate analyses. 
 
-## Wire component 
+## Powerlines component 
 URI only plants shade trees (trees which will grow very tall) in sites that do not have powerlines overhead, because conflict with powerlines are thought to lead to lower tree health due to heavy pruning. This analysis explores the impact of powerlines on tree health, as well as the implications of URI's decision to not plant tall trees under powerlines. A more detailed narrative can be read within the notebook.
 
 ## Biodiversity component 
@@ -61,6 +61,6 @@ The biodiversity component of our project aims to understand the current levels 
 
 # Notebooks 
 The project analysis is organized in three notebooks:
-1. Wire Component: Les_UtilityLines.ipynb
+1. Powerlines Component: Les_UtilityLines.ipynb
 2. Biodiversity Component: Final_Project_URI_trees
 3. Canopy Component: 
