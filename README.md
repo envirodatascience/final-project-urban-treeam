@@ -28,7 +28,7 @@ The biodiversity component of our project aims to understand the current levels 
 (Topher's part)
 
 # Data Sources 
-## in the repository
+## In the repository:
 1. all_trees_58_1712257580.csv: This is a csv containing all the tree datapoints from New Haven's online tree inventory (https://newhavenct.treekeepersoftware.com). It contains the following information:
     #### Site_ID: A unique identification number for each individual tree point
     #### Latitude: Latitude of the tree point
@@ -55,7 +55,7 @@ The biodiversity component of our project aims to understand the current levels 
    
 3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
 
-## pulled from online:
+## Pulled from online:
    
 4. Topher, however you'd like to describe your data here
 
