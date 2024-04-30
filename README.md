@@ -25,7 +25,7 @@ The biodiversity component of our project aims to understand the current levels 
 •	What is the condition of street trees in New Haven?
 
 ## Canopy component
-(Topher's part)
+The GEDI mission, stationed on the International Space Station, uses advanced LiDAR laser technology to map Earth's ecosystems in high resolution. Covering latitudes between 51.6° N and 51.6° S, GEDI provides detailed data on tree cover, carbon cycle and biodiversity. The GEDI02_B product extracts biophysical metrics like canopy cover and Plant Area Index from laser waveforms, with an average spatial resolution of 25 meters. Each granule captures one-fourth of an ISS orbit and includes metadata for spatial analysis. This data, in HDF5 format, contains 96 layers per ground transect, offering precise metrics on latitude, longitude, elevation, and more. This data enables new forms of data collection to supplement on-ground methods, made possible by the spatial data available via the URI. 
 
 # Data Sources 
 ## In the repository:
@@ -55,12 +55,26 @@ The biodiversity component of our project aims to understand the current levels 
    
 3. Neighborhoods.zip: A .zip containing shapefiles for neighborhoods in New Haven.
 
+4. gedi_output.csv/gedi_outputv2.csv
+
+    #### latitude_bin0: Latitude of first bin of the pgap_theta_z, interpolated from L1B waveform coordinate
+    #### longitude_bin0: Longitude of first bin of the pgap_theta_z, interpolated from L1B waveform coordinate
+    #### algorithmrun_flag: The L2B algorithm is run if this flag is set to 1. This flag selects data which have sufficient waveform fidelity for L2B to run.
+    #### cover: Total canopy cover, defined as the percent of the ground covered by the vertical projection of canopy material
+    #### l2b_quality_flag: Flag simpilfying selection of most useful data for Level 2B
+    #### omega: Foliage clumping index
+    #### rh100: Height above ground of the received waveform signal start (rh[101] from L2A) units = cm.
+    #### landsat_treecover: Tree cover in the year 2010, defined as canopy closure for all vegetation taller than 5m in height (Hansen et al.). Encoded as a percentage per output grid cell.
+    #### urban_proportion: The percentage proportion of land area within a focal area surrounding each shot that is urban land cover. Urban land cover is derived from the DLR 12 m resolution TanDEM-X Global Urban Footprint Product.
+    #### shot_number: Unique shot ID.
+
+
 ## Pulled from online:
    
-4. Topher, however you'd like to describe your data here
+5. GEDI L2B (gedi_output.csv is derived from this source) "The GEDI instrument produces high resolution laser ranging observations of the 3-dimensional structure of the Earth. GEDI is attached to the International Space Station (ISS) and collects data globally between 51.6° N and 51.6° S latitudes at the highest resolution and densest sampling of any light detection and ranging (lidar) instrument in orbit to date. Datasets provided include precise latitude, longitude, elevation, height, canopy cover, and vertical profile metrics." source: https://lpdaac.usgs.gov/products/gedi02_bv002/
 
 # Notebooks 
 The project analysis is organized in three notebooks:
 1. Powerlines Component: Les_UtilityLines.ipynb
 2. Biodiversity Component: Final_Project_URI_trees
-3. Canopy Component: 
+3. Canopy Component: GEDI_final.ipynb
